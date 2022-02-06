@@ -1,0 +1,17 @@
+.Image {
+  position: relative;
+  left: 85%;
+  /* right: 54.96%; */
+  top:  5%;
+  bottom: 31.75%;
+  
+  /* border: 4px solid #12C223; */
+  }
+  
+  .ImageIcon {
+    position: absolute;
+    left: 44.11%;
+    /* right: 54.77%; */
+    top: 5%;
+    /* bottom: 59.66%; */
+  }

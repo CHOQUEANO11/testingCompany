@@ -1,0 +1,104 @@
+.textOnes {
+position: static;
+width: 413px;
+height: 70px;
+left: 214.5px;
+top: 97px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #3D3ADA;
+
+
+/* Inside auto layout */
+
+/* flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px; */
+}
+
+.textTwo {
+/* position: static; */
+width: 413px;
+height: 50px;
+left: 214.5px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+/* color: #3D3ADA; */
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+.textThrees {
+  position: static;
+width: 443px;
+height: 42px;
+left: 199.5px;
+top: 289px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+.textFours {
+  position: static;
+width: 273px;
+height: 16px;
+left: 284.5px;
+top: 355px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+/* text-decoration-line: underline; */
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+.decoration {
+  color: #3D3ADA;
+  text-decoration: underline;
+  cursor: pointer;
+}
