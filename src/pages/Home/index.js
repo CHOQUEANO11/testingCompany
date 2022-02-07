@@ -10,7 +10,7 @@ function Home() {
 
   const visible = () => {
     setVisibled(!visibled);
-    if (!visibled) {
+    if (visibled) {
       setTimeout(() => {
         history.push("/list-message");
       }, 2000);
