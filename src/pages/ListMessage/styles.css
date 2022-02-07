@@ -55,7 +55,7 @@
 }
 
 .Text {
-width: 60%;
+/* width: 60%; */
 left: 288px;
 top: 85px;
 
@@ -64,7 +64,10 @@ font-style: normal;
 font-weight: bold;
 font-size: 30px;
 line-height: 42px;
-text-align: center;
+/* text-align: center; */
+align-items: center;
+justify-content: center;
+display: flex;
 
 color: #000000;
 
