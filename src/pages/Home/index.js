@@ -10,7 +10,7 @@ function Home() {
 
   const visible = () => {
     setVisibled(!visibled);
-    if (visibled) {
+    if (!visibled) {
       setTimeout(() => {
         history.push("/list-message");
       }, 2000);
@@ -20,6 +20,7 @@ function Home() {
     <>
       <Header />
       <div className="MyView">
+        <div class="container">
         {visibled ? (
           <>
             <span className="Text">
@@ -51,6 +52,7 @@ function Home() {
         ) : (
           <Loader onPress={() => window.location.reload()} />
         )}
+        </div>
       </div>
     </>
   );

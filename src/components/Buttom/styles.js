@@ -3,14 +3,12 @@ import styled from 'styled-components'
 
 const Container = styled.button`
 display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+/* flex-direction: row; */
 padding: 20px 30px;
 cursor: pointer;
-margin-top: 50;
+margin-top: 100;
 
-position: static;
+position: relative;
 width: 186px;
 height: 61px;
 left: calc(50% - 186px/2);

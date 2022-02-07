@@ -4,12 +4,15 @@ import IconLoader from "../../assets/icons/bx_bx-loader.png";
 function Loading({ onPress }) {
 
   return (
-    <>
+   <div style={{display: 'flex',
+      padding: '16px',
+      alignItems: 'center',
+      flexDirection: 'column'}}>
       <h1 className="Text">
         {" "}
         Estamos verificando todas as mensagens en seu arquivo...
       </h1>
-      <img src={IconLoader} alt="" />
+      <img style={{display: 'flex', flexDirection: 'row', position: 'relative'}} src={IconLoader} alt="" />
       <h4 className="TextThree">
         você quer{" "}
         <span
@@ -23,7 +26,7 @@ function Loading({ onPress }) {
           cancelar e voltar ao início?
         </span>{" "}
       </h4>
-    </>
+      </div>
   );
 }
 
