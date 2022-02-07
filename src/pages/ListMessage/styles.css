@@ -55,10 +55,8 @@
 }
 
 .Text {
-  /* position: static; */
-width: 50%;
-height: 107px;
-left: 188px;
+width: 60%;
+left: 288px;
 top: 85px;
 
 font-family: Roboto;
